@@ -1,0 +1,54 @@
+.wordle-game-heading{
+    padding-top: 50px;
+    width: 100vw;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dashboard-button{
+    background-color: green;
+    color: white;
+    height: 50px!important;
+    width: 200px!important;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dashboard-button:hover {
+    color: aliceblue;
+    background-color: rgb(0, 99, 0);
+}
+
+.dash-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.background-body{
+    background-color: rgb(255, 255, 94);
+    height: 100vh;
+}
+
+.logo-bg{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 170px;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 7px;
+    top: 20px;
+}

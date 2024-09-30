@@ -1,0 +1,96 @@
+.message-container{
+    height: 79vh;
+}
+.chatbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-input{
+    width: 30vw;
+    height: 5vh;
+    border: 1px solid rgb(186, 186, 186);
+}
+
+.message-container{
+    margin-top: 10px;
+    border: 1px solid rgb(212, 212, 212);
+    width: 40vw;
+    overflow: scroll;
+    background-color: rgb(145, 33, 33);
+}
+
+.user-info{
+    margin-top: 10px;
+    height: 8.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.send-message{
+    width: 128px;
+    margin-left: 10px;
+    height: 5.5vh;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+.input-message{
+    margin-top: 5px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    background-color: rgb(255, 237, 178);
+    color: rgb(0, 0, 0);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: 5px;
+}
+
+.message-user{
+    color: rgb(194, 7, 7);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.text-message{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.avatar{
+    border-radius: 30px;
+    display:block;
+}
+
+.copy-url-container{
+    background-color: white;
+    padding: 10px;
+    width: 300px;
+    margin-left: 71px;
+}
+
+.copy-url{
+    text-wrap: wrap;
+}
+
+.url-info{
+    margin-left: 200px;
+}
+
+.profile-user{
+    font-weight: 700;
+}

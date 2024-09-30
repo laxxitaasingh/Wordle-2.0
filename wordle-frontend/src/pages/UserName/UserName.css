@@ -1,0 +1,31 @@
+
+.input-name {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+
+.submit-btn{
+    width: 300px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.username-form-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    text-wrap: wrap;
+}

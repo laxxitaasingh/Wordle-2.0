@@ -1,0 +1,41 @@
+
+.initial-box{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #d3d6da;
+    margin: 4px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(88, 88, 88);
+}
+
+.green {
+    background-color: green;
+    color: white !important;
+    border: 2px solid green;
+}
+
+.yellow {
+    background-color: rgb(215, 176, 2);
+    color: white !important;
+    border: 2px solid rgb(215, 176, 2);
+}
+
+.grey {
+    background-color: grey;
+    color: white !important;
+    border: 2px solid grey;
+}
+
+.modal-heading{
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+    color: green;
+}
+
+.modal-description{
+    text-align: center;
+}
+
